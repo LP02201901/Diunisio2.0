@@ -9,7 +9,7 @@ inicio
 
  clase
  : CLASE (modificadoracceso)? IDENTIFICADOR (extiende)? LLAVEIZ  lista_atrb
- constructor lista_atrb lista_metd LLAVEDE bloque
+ constructor lista_atrb lista_metd LLAVEDE (bloque)*
  ;
 
  extiende
@@ -217,7 +217,6 @@ funcion
 
 //Expresiones regulares para tokens
 COMENTARIO : ('#' ~[\r\n]*  | '/*' .*? '*/') -> skip;
-
 
 CLASE : 'CLASE';
 CONSTRUCTOR : 'CONSTRUCTOR';

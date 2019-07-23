@@ -1,6 +1,57 @@
 //Nombre del lenguaje: Diunisio
 grammar Diunisio;
 
+//COMIENZO DE LA GRAMATICA PARA POO
+
+inicio
+ : clase | algoritmo
+ ;
+
+ clase
+ : CLASE (modificadoracceso)? IDENTIFICADOR (extiende)? LLAVEIZ  lista_atrb
+ constructor lista_atrb lista_metd LLAVEDE (bloque)*
+ ;
+
+ extiende
+ : EXTIENDE IDENTIFICADOR
+ ;
+
+ lista_atrb
+ :   atrb lista_atrb | atrb?
+ ;
+
+ atrb
+ :   tipo variable PCOMA
+ ;
+
+ lista_metd
+ :   fun_senten lista_metd | fun_senten?
+ ;
+
+ constructor
+ : CONSTRUCTOR IDENTIFICADOR PAREN_AP lista_parsv PAREN_CI (bloque)*
+ ;
+
+/** instancia **/
+
+ instancia
+ : IDENTIFICADOR IDENTIFICADOR ASIGNAR NUEVO IDENTIFICADOR PAREN_AP lista_parsv PAREN_CI PCOMA
+ ;
+
+ atribinstancia
+ : IDENTIFICADOR DEFINE IDENTIFICADOR ASIGNAR termino PCOMA
+ ;
+
+ metodoinstancia
+ : IDENTIFICADOR DEFINE IDENTIFICADOR lista_parsv PCOMA
+ ;
+
+ modificadoracceso
+ : ABSTRACTA | FINAL | PUBLICA
+ ;
+
+ // FIN GRAMATICA
+
 //Símbolo inicial
 algoritmo
  : ALGORITMO IDENTIFICADOR (PAREN_AP lista_ids PAREN_CI)? DOSPUNTOS bloque TERMINA
@@ -79,6 +130,7 @@ tipo
 bloque
  : LLAVEIZ LLAVEDE
  | LLAVEIZ sec_proposiciones LLAVEDE
+ | sec_proposiciones
  ;
 
 //Secuenciación
@@ -100,6 +152,9 @@ proposicion
  | IDENTIFICADOR lista_parsv PCOMA //Llamar función o procedimiento
  | LLAVEIZ sec_proposiciones LLAVEDE
  | OTRO {System.err.println("Caracter desconocido: " + $OTRO.text);}
+ | instancia
+ | atribinstancia
+ | metodoinstancia
  ;
 
 //Modo de asignación
@@ -162,6 +217,16 @@ funcion
 
 //Expresiones regulares para tokens
 COMENTARIO : ('#' ~[\r\n]*  | '/*' .*? '*/') -> skip;
+
+CLASE : 'CLASE';
+CONSTRUCTOR : 'CONSTRUCTOR';
+EXTIENDE : 'EXTIENDE';
+NUEVO : 'NUEVO';
+DEFINE : '->';
+ABSTRACTA : 'ABSTRACTA';
+FINAL : 'FINAL';
+PUBLICA : 'PUBLICA';
+
 ALGORITMO : 'ALGORITMO';
 TERMINA : '.';
 ENTONCES : 'entonces';

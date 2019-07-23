@@ -5,6 +5,8 @@ import org.antlr.v4.runtime.*;
 public class Main {
     public static String[] parametros;
     public static String algoritmo;
+    public static String clase;
+    public static String inicio;
 
     public static void main(String[] args) throws Exception {
         DiunisioLexer lexer;
@@ -25,6 +27,7 @@ public class Main {
         //Realiza el parseo del código
         DiunisioParser parser = new DiunisioParser(new CommonTokenStream(lexer));
         ParseTree tree = parser.algoritmo();
+        //ParseTree tree = parser.inicio();
         EvalVisitor visitor = new EvalVisitor();
         visitor.visit(tree);
     }

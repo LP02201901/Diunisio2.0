@@ -1,7 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fb21717-16fd-49f4-9617-fe9844a4c2c7" name="Default Changelist" comment="" />
+    <list default="true" id="3fb21717-16fd-49f4-9617-fe9844a4c2c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClaseValor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POOejemplo1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/Diunisio.g4" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/Diunisio.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/Diunisio.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/Diunisio.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/Diunisio.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/Diunisio.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioBaseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioBaseListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioBaseVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioBaseVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioLexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AlgoritmoContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AlgoritmoContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AsigNumContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AsigNumContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AsigVecContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AsigVecContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AsignacionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AsignacionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$BloqueContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$BloqueContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Bloque_condicionalContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Bloque_condicionalContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$CasosContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$CasosContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$CasosDefContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$CasosDefContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$CasosGenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$CasosGenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$ConjuntoContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$ConjuntoContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Exp_simpleContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Exp_simpleContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$ExpresionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$ExpresionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$FactorContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$FactorContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Fun_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Fun_sentenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$FuncionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$FuncionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Hacer_mientras_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Hacer_mientras_sentenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Lista_idsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Lista_idsContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Lista_parsvContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Lista_parsvContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Mientras_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Mientras_sentenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Para_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Para_sentenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Proc_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Proc_sentenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$ProposicionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$ProposicionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Sec_proposicionesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Sec_proposicionesContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Seleccionar_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Seleccionar_sentenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Si_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Si_sentenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$TerminoContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$TerminoContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$TipoContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$TipoContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$VariableContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$VariableContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/EvalVisitor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/EvalVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/pruebasRetorno.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/pruebasRetorno.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Complejo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Complex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diunisio.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diunisio.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diunisio.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diunisio.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diunisio.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diunisio.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioBaseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioBaseListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioBaseVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioBaseVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioLexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$AlgoritmoContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$AsigNumContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$AsigVecContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$AsignacionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$BloqueContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Bloque_condicionalContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$CasosContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$CasosDefContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$CasosGenContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$ConjuntoContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Exp_simpleContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$ExpresionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$FactorContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Fun_sentenContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$FuncionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Hacer_mientras_sentenContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Lista_idsContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Lista_parsvContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Mientras_sentenContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Para_sentenContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Proc_sentenContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$ProposicionContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Sec_proposicionesContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Seleccionar_sentenContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Si_sentenContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$TerminoContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$TipoContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$VariableContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EvalVisitor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EvalVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EvalVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EvalVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunctionValor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Valor.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +115,24 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Diunisio.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+            <state relative-caret-position="59">
+              <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="60" column="30" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -26,22 +140,54 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/POOejemplo">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="30">
+              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ejemplo">
+        <entry file="file://$PROJECT_DIR$/gen/DiunisioBaseVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="103" selection-end-column="30" />
+            <state relative-caret-position="-98" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Diunisio.tokens">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1140">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClaseValor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -50,21 +196,37 @@
       <find>TERMINA</find>
       <find>ESPACIO</find>
       <find>lista_metd</find>
-      <find>fun_senten</find>
       <find>INT</find>
       <find>si_senten</find>
       <find>RETORNAR</find>
       <find>OBJECT</find>
       <find>ALGORITMO</find>
+      <find>visitAlgoritmo</find>
+      <find>mientras_senten</find>
+      <find>imprimirPantalla</find>
+      <find>def</find>
+      <find>AlgoritmoContext</find>
+      <find>InicioContext</find>
+      <find>FunctionValor</find>
+      <find>fun_senten</find>
+      <find>lista_ids</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Fibonacci.txt" />
         <option value="$PROJECT_DIR$/src/Diunisio.tokens" />
-        <option value="$PROJECT_DIR$/src/Diunisio.g4" />
         <option value="$PROJECT_DIR$/src/POOejemplo" />
+        <option value="$PROJECT_DIR$/src/DiunisioBaseVisitor.java" />
+        <option value="$PROJECT_DIR$/src/POOejemplo1" />
+        <option value="$PROJECT_DIR$/src/Diunisio.g4" />
+        <option value="$PROJECT_DIR$/src/ClaseValor.java" />
+        <option value="$PROJECT_DIR$/src/EvalVisitor.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -72,13 +234,13 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -89,7 +251,7 @@
             <path>
               <item name="Diunisio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Diunisio" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="gen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Diunisio" type="b2602c69:ProjectViewProjectNode" />
@@ -104,9 +266,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
@@ -118,10 +282,10 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -137,6 +301,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Diunisio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -150,18 +328,20 @@
       <workItem from="1561653503303" duration="230000" />
       <workItem from="1563646354486" duration="14343000" />
       <workItem from="1563735167747" duration="12000" />
-      <workItem from="1563735417095" duration="1120000" />
+      <workItem from="1563735417095" duration="3681000" />
+      <workItem from="1563818359300" duration="5973000" />
+      <workItem from="1563865644278" duration="5108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15693000" />
+    <option name="totallyTimeSpent" value="29335000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25040388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24394184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -170,19 +350,19 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30547947" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Tool Output" order="9" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="13" weight="0.40684932" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.14657535" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="13" weight="0.5739726" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.31917807" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -205,91 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DiunisioBaseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DiunisioLexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DiunisioLexer.interp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-755" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DiunisioLexer.tokens">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-975" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DiunisioListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3460">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DiunisioParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2151">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DiunisioVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-934">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1703">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DiunisioBaseVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/file.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FunctionValor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Valor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="130" column="6" selection-start-line="130" selection-start-column="6" selection-end-line="130" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Fibonacci.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -297,10 +392,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Diunisio.tokens">
+    <entry file="uml://JAVA/DiunisioVisitor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>DiunisioVisitor</OriginalElement>
+          <nodes>
+            <node x="" y="">DiunisioVisitor</node>
+            <node x="" y="">org.antlr.v4.runtime.tree.ParseTreeVisitor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="79.0" y="51.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Diunisio/DiunisioVisitor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-490">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="390">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#2554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiunisioVisitor.class" />
+    <entry file="file://$PROJECT_DIR$/src/Ejemplo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="103" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/file.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Valor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiunisioListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3657">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiunisioLexer.tokens">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1083">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiunisioLexer.interp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1111" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiunisioLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiunisioBaseVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1884">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiunisioBaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1212">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Diunisio.interp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiunisioParser$ClaseContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ejemplo2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="113" column="7" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Complejo.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiunisioBaseVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClaseValor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -311,31 +519,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejemplo2.txt">
+    <entry file="file://$PROJECT_DIR$/src/DiunisioParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="126" column="16" lean-forward="true" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+        <state relative-caret-position="1119">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5836#5837#0" expanded="true" />
+            <element signature="e#5892#5893#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejemplo">
+    <entry file="file://$PROJECT_DIR$/src/DiunisioVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="103" selection-end-column="30" />
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FunctionValor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/POOejemplo1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Diunisio.tokens">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1140">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClaseValor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Diunisio.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        <state relative-caret-position="59">
+          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/DiunisioBaseVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/POOejemplo">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="30">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>

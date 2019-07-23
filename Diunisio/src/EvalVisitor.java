@@ -19,6 +19,90 @@ public class EvalVisitor extends DiunisioBaseVisitor<Valor> {
     private boolean retornar = false;
     private Valor variable = null;
 
+    @Override
+    public Valor visitInicio(DiunisioParser.InicioContext ctx) {
+
+        //Main.clase = ctx.clase().getText();
+        Main.algoritmo = ctx.clase().getText();
+        System.out.println(Main.algoritmo);
+        return super.visitInicio(ctx);
+    }
+
+    @Override
+    public Valor visitClase(DiunisioParser.ClaseContext ctx) {
+
+        ClaseValor clase = new ClaseValor(null);
+        clase.bloque = ctx.bloque();
+        for (int i = 0; i < ctx.lista_atrb().size(); i++) {
+            clase.lista_atrb.add(ctx.lista_atrb(i).atrb().variable().IDENTIFICADOR().getText());
+        }
+        /*funcion.tipo = "funcion";
+        for (int i = 0; i < ctx.lista_ids().IDENTIFICADOR().size(); i++) {
+            funcion.parametros.add(ctx.lista_ids().IDENTIFICADOR(i).getText());
+        }*/
+        /*HashMap<String, Valor> memoria = globales;
+        memoria.put(ctx.IDENTIFICADOR().getText(), funcion);
+        return new Valor(null);*/
+        System.out.println(ctx.modificadoracceso());
+        System.out.println(ctx.IDENTIFICADOR());
+        System.out.println(ctx.extiende());
+        System.out.println(ctx.LLAVEIZ());
+        System.out.println(ctx.lista_atrb(0));
+        System.out.println(ctx.constructor());
+        System.out.println(ctx.lista_atrb());
+        System.out.println(ctx.lista_metd());
+        System.out.println(ctx.LLAVEDE());
+        System.out.println(ctx.bloque());
+        return super.visitClase(ctx);
+
+    }
+
+    @Override
+    public Valor visitExtiende(DiunisioParser.ExtiendeContext ctx) {
+        return super.visitExtiende(ctx);
+    }
+
+    @Override
+    public Valor visitLista_atrb(DiunisioParser.Lista_atrbContext ctx) {
+        return super.visitLista_atrb(ctx);
+    }
+
+    @Override
+    public Valor visitAtrb(DiunisioParser.AtrbContext ctx) {
+        return super.visitAtrb(ctx);
+    }
+
+    @Override
+    public Valor visitLista_metd(DiunisioParser.Lista_metdContext ctx) {
+        return super.visitLista_metd(ctx);
+    }
+
+    @Override
+    public Valor visitConstructor(DiunisioParser.ConstructorContext ctx) {
+        return super.visitConstructor(ctx);
+    }
+
+    @Override
+    public Valor visitInstancia(DiunisioParser.InstanciaContext ctx) {
+        return super.visitInstancia(ctx);
+    }
+
+    @Override
+    public Valor visitAtribinstancia(DiunisioParser.AtribinstanciaContext ctx) {
+        return super.visitAtribinstancia(ctx);
+    }
+
+    @Override
+    public Valor visitMetodoinstancia(DiunisioParser.MetodoinstanciaContext ctx) {
+        return super.visitMetodoinstancia(ctx);
+    }
+
+    @Override
+    public Valor visitModificadoracceso(DiunisioParser.ModificadoraccesoContext ctx) {
+        return super.visitModificadoracceso(ctx);
+    }
+
+
     //Visitor de las producciones de Algoritmo
     @Override
     public Valor visitAlgoritmo(DiunisioParser.AlgoritmoContext ctx) {

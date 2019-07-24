@@ -10,3 +10,5 @@ CLASE ABSTRACTA empleado EXTIENDE persona{
         duracion = duracion;
     }
 }
+empleado enrique = NUEVO empleador((3,4));
+enrique->setcargo(("Celador"));

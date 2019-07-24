@@ -1,15 +1,12 @@
-CLASE ABSTRACTA empleado EXTIENDE persona{
-    CONSTRUCTOR empleado ((a,b)){
-		imprimirPantalla (2+2);
-		retornar "hola"+" "+x;
+CLASE ABSTRACTA empleado  {
+    CONSTRUCTOR empleado (a,b){
+		imprimirPantalla (a+b);
     }
     def cadena set_cargo(nombre){
         nombre = nombre;
-    }
-    def cadena set_duracion(duracion){
-        duracion = duracion;
+        imprimirPantalla (nombre);
     }
 }
 
-empleado enrique = NUEVO empleador((3,4));
-enrique->setcargo(("Celador"));
+empleado enrique = NUEVO empleado((3,4));
+enrique->set_cargo("Enrique");

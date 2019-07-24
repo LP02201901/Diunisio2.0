@@ -2,107 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fb21717-16fd-49f4-9617-fe9844a4c2c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClaseValor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POOejemplo1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConstructorValor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/Diunisio.g4" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/Diunisio.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/Diunisio.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/Diunisio.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/Diunisio.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/Diunisio.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioBaseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioBaseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioBaseVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioBaseVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioLexer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioLexer.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioLexer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AlgoritmoContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AlgoritmoContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AsigNumContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AsigNumContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AsigVecContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AsigVecContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AsignacionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$AsignacionContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$BloqueContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$BloqueContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Bloque_condicionalContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Bloque_condicionalContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$CasosContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$CasosContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$CasosDefContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$CasosDefContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$CasosGenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$CasosGenContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$ConjuntoContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$ConjuntoContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Exp_simpleContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Exp_simpleContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$ExpresionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$ExpresionContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$FactorContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$FactorContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Fun_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Fun_sentenContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$FuncionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$FuncionContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Hacer_mientras_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Hacer_mientras_sentenContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Lista_idsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Lista_idsContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Lista_parsvContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Lista_parsvContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Mientras_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Mientras_sentenContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Para_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Para_sentenContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Proc_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Proc_sentenContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$ProposicionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$ProposicionContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Sec_proposicionesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Sec_proposicionesContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Seleccionar_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Seleccionar_sentenContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Si_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$Si_sentenContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$TerminoContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$TerminoContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$TipoContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$TipoContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$VariableContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser$VariableContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/DiunisioVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/DiunisioVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/EvalVisitor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/EvalVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Diunisio/pruebasRetorno.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Diunisio/pruebasRetorno.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Complejo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Complex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/Diunisio.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/Diunisio.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/DiunisioBaseListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/DiunisioBaseVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/DiunisioLexer.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/DiunisioLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/DiunisioLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/DiunisioListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/DiunisioParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/DiunisioVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClaseValor.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClaseValor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClaseValor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClaseValor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Diunisio.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diunisio.g4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Diunisio.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diunisio.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Diunisio.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diunisio.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioBaseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioBaseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioBaseListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DiunisioBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioBaseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioBaseVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioBaseVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioBaseVisitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DiunisioBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioBaseVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioLexer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioLexer.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioLexer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DiunisioListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$AlgoritmoContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$AsigNumContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$AsigVecContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$AsignacionContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$BloqueContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Bloque_condicionalContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$CasosContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$CasosDefContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$CasosGenContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$ConjuntoContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Exp_simpleContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$ExpresionContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$FactorContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Fun_sentenContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$FuncionContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Hacer_mientras_sentenContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Lista_idsContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Lista_parsvContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Mientras_sentenContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Para_sentenContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Proc_sentenContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$ProposicionContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Sec_proposicionesContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Seleccionar_sentenContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Si_sentenContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$TerminoContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$TipoContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$VariableContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$AlgoritmoContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$AlgoritmoContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$AsigNumContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$AsigNumContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$AsigVecContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$AsigVecContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$AsignacionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$AsignacionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$BloqueContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$BloqueContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Bloque_condicionalContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$Bloque_condicionalContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$CasosContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$CasosContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$CasosDefContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$CasosDefContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$CasosGenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$CasosGenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$ClaseContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$ClaseContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$ConjuntoContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$ConjuntoContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$ConstructorContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$ConstructorContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Exp_simpleContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$Exp_simpleContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$ExpresionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$ExpresionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$FactorContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$FactorContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Fun_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$Fun_sentenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$FuncionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$FuncionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Hacer_mientras_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$Hacer_mientras_sentenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$InicioContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$InicioContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$InstanciaContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$InstanciaContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Lista_idsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$Lista_idsContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Lista_parsvContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$Lista_parsvContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Mientras_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$Mientras_sentenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$ModificadoraccesoContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$ModificadoraccesoContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Para_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$Para_sentenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Proc_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$Proc_sentenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$ProposicionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$ProposicionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Sec_proposicionesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$Sec_proposicionesContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Seleccionar_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$Seleccionar_sentenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$Si_sentenContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$Si_sentenContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$TerminoContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$TerminoContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$TipoContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$TipoContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser$VariableContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser$VariableContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DiunisioParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DiunisioVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiunisioVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioVisitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DiunisioVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiunisioVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EvalVisitor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EvalVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EvalVisitor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EvalVisitor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EvalVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/EvalVisitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EvalVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EvalVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FunctionValor.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Valor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/POOejemplo" beforeDir="false" afterPath="$PROJECT_DIR$/src/POOejemplo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/POOejemplo1" beforeDir="false" afterPath="$PROJECT_DIR$/src/POOejemplo1" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,54 +84,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Diunisio.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+            <state relative-caret-position="157">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
+        <entry file="file://$PROJECT_DIR$/src/POOejemplo">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="60" column="30" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/POOejemplo">
+        <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="228">
+              <caret line="44" column="32" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+                <element signature="e#2627#2628#0" expanded="true" />
+                <element signature="e#2672#2673#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen/DiunisioBaseVisitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Diunisio.tokens">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1140">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClaseValor.java">
+        <entry file="file://$PROJECT_DIR$/src/FunctionValor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="39" />
+              <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -174,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="28" column="41" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="270">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -208,8 +161,13 @@
       <find>AlgoritmoContext</find>
       <find>InicioContext</find>
       <find>FunctionValor</find>
-      <find>fun_senten</find>
       <find>lista_ids</find>
+      <find>funcion</find>
+      <find>instancia</find>
+      <find>fun_senten</find>
+      <find>proposicion</find>
+      <find>encontrar</find>
+      <find>bloque</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -220,13 +178,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/Fibonacci.txt" />
         <option value="$PROJECT_DIR$/src/Diunisio.tokens" />
-        <option value="$PROJECT_DIR$/src/POOejemplo" />
         <option value="$PROJECT_DIR$/src/DiunisioBaseVisitor.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/ClaseValor.java" />
+        <option value="$PROJECT_DIR$/src/ConstructorValor.java" />
         <option value="$PROJECT_DIR$/src/POOejemplo1" />
         <option value="$PROJECT_DIR$/src/Diunisio.g4" />
-        <option value="$PROJECT_DIR$/src/ClaseValor.java" />
+        <option value="$PROJECT_DIR$/src/POOejemplo" />
         <option value="$PROJECT_DIR$/src/EvalVisitor.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -240,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -247,11 +207,6 @@
             <path>
               <item name="Diunisio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Diunisio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Diunisio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Diunisio" type="462c0819:PsiDirectoryNode" />
-              <item name="gen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Diunisio" type="b2602c69:ProjectViewProjectNode" />
@@ -266,7 +221,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,10 +236,10 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -331,17 +285,18 @@
       <workItem from="1563735417095" duration="3681000" />
       <workItem from="1563818359300" duration="5973000" />
       <workItem from="1563865644278" duration="5108000" />
+      <workItem from="1563989760870" duration="9458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29335000" />
+    <option name="totallyTimeSpent" value="38793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24394184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20274636" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -355,13 +310,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30547947" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.20958903" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Tool Output" order="9" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="13" weight="0.5739726" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="13" weight="0.35342467" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.31917807" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -490,13 +445,6 @@
         <state relative-caret-position="-451" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejemplo2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="113" column="7" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Complejo.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -509,13 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ejemplo1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -538,67 +479,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FunctionValor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/POOejemplo1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Diunisio.tokens">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1140">
+        <state relative-caret-position="15">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClaseValor.java">
+    <entry file="file://$PROJECT_DIR$/src/Ejemplo1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="39" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ejemplo2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="113" column="7" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="270">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiunisioBaseVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClaseValor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/POOejemplo1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConstructorValor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Diunisio.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/DiunisioBaseVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="60" column="30" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="157">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/POOejemplo">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="90">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FunctionValor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EvalVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#2627#2628#0" expanded="true" />
+            <element signature="e#2672#2673#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

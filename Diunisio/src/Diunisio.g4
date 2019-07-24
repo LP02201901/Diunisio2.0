@@ -8,46 +8,35 @@ inicio
  ;
 
  clase
- : CLASE (modificadoracceso)? IDENTIFICADOR (extiende)? LLAVEIZ  lista_atrb
- constructor lista_atrb lista_metd LLAVEDE (bloque)*
+ : CLASE (modificadoracceso)? IDENTIFICADOR LLAVEIZ
+  constructor fun_senten LLAVEDE (instancia)* (bloque)*
  ;
 
- extiende
- : EXTIENDE IDENTIFICADOR
- ;
-
- lista_atrb
- :   atrb lista_atrb | atrb?
- ;
-
- atrb
- :   tipo variable PCOMA
- ;
-
- lista_metd
- :   fun_senten lista_metd | fun_senten?
- ;
-
- constructor
- : CONSTRUCTOR IDENTIFICADOR PAREN_AP lista_parsv PAREN_CI (bloque)*
- ;
+  constructor
+  : CONSTRUCTOR IDENTIFICADOR PAREN_AP lista_ids PAREN_CI bloque
+  ;
 
 /** instancia **/
 
  instancia
- : IDENTIFICADOR IDENTIFICADOR ASIGNAR NUEVO IDENTIFICADOR PAREN_AP lista_parsv PAREN_CI PCOMA
+ : IDENTIFICADOR objeto ASIGNAR NUEVO clasereferencia PAREN_AP lista_parsv PAREN_CI PCOMA
+  atributoobjeto*
  ;
 
- atribinstancia
- : IDENTIFICADOR DEFINE IDENTIFICADOR ASIGNAR termino PCOMA
+ objeto
+ :IDENTIFICADOR
  ;
 
- metodoinstancia
- : IDENTIFICADOR DEFINE IDENTIFICADOR lista_parsv PCOMA
+ clasereferencia
+ :IDENTIFICADOR
  ;
 
  modificadoracceso
  : ABSTRACTA | FINAL | PUBLICA
+ ;
+
+ atributoobjeto
+ : IDENTIFICADOR DEFINE objeto lista_parsv PCOMA
  ;
 
  // FIN GRAMATICA
@@ -152,9 +141,6 @@ proposicion
  | IDENTIFICADOR lista_parsv PCOMA //Llamar función o procedimiento
  | LLAVEIZ sec_proposiciones LLAVEDE
  | OTRO {System.err.println("Caracter desconocido: " + $OTRO.text);}
- | instancia
- | atribinstancia
- | metodoinstancia
  ;
 
 //Modo de asignación

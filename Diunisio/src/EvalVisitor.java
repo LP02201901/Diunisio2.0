@@ -29,73 +29,79 @@ public class EvalVisitor extends DiunisioBaseVisitor<Valor> {
     }
 
     @Override
-    public Valor visitClase(DiunisioParser.ClaseContext ctx) {
-
-        ClaseValor clase = new ClaseValor(null);
-        clase.bloque = ctx.bloque();
-        for (int i = 0; i < ctx.lista_atrb().size(); i++) {
-            clase.lista_atrb.add(ctx.lista_atrb(i).atrb().variable().IDENTIFICADOR().getText());
-        }
-        /*funcion.tipo = "funcion";
-        for (int i = 0; i < ctx.lista_ids().IDENTIFICADOR().size(); i++) {
-            funcion.parametros.add(ctx.lista_ids().IDENTIFICADOR(i).getText());
-        }*/
-        /*HashMap<String, Valor> memoria = globales;
-        memoria.put(ctx.IDENTIFICADOR().getText(), funcion);
-        return new Valor(null);*/
-        System.out.println(ctx.modificadoracceso());
-        System.out.println(ctx.IDENTIFICADOR());
-        System.out.println(ctx.extiende());
-        System.out.println(ctx.LLAVEIZ());
-        System.out.println(ctx.lista_atrb(0));
-        System.out.println(ctx.constructor());
-        System.out.println(ctx.lista_atrb());
-        System.out.println(ctx.lista_metd());
-        System.out.println(ctx.LLAVEDE());
-        System.out.println(ctx.bloque());
-        return super.visitClase(ctx);
-
-    }
-
-    @Override
-    public Valor visitExtiende(DiunisioParser.ExtiendeContext ctx) {
-        return super.visitExtiende(ctx);
-    }
-
-    @Override
-    public Valor visitLista_atrb(DiunisioParser.Lista_atrbContext ctx) {
-        return super.visitLista_atrb(ctx);
-    }
-
-    @Override
-    public Valor visitAtrb(DiunisioParser.AtrbContext ctx) {
-        return super.visitAtrb(ctx);
-    }
-
-    @Override
-    public Valor visitLista_metd(DiunisioParser.Lista_metdContext ctx) {
-        return super.visitLista_metd(ctx);
-    }
-
-    @Override
     public Valor visitConstructor(DiunisioParser.ConstructorContext ctx) {
         return super.visitConstructor(ctx);
     }
 
     @Override
+    public Valor visitClase(DiunisioParser.ClaseContext ctx) {
+
+        ClaseValor clase = new ClaseValor(null);
+        clase.tipo = "clase";
+        clase.modificadoracceso = ctx.modificadoracceso().getText();
+        clase.nombre = ctx.IDENTIFICADOR().getText();
+        clase.constructor.tipo = ctx.constructor().CONSTRUCTOR().getText();
+        clase.constructor.nombre = ctx.constructor().IDENTIFICADOR().getText();
+        clase.constructor.bloque =  ctx.constructor().bloque();
+        for (int i = 0; i < ctx.constructor().lista_ids().IDENTIFICADOR().size(); i++) {
+            clase.constructor.parametros.add(ctx.constructor().lista_ids().IDENTIFICADOR(i).getText());
+        }
+
+        HashMap<String, Valor> memoria = globales;
+        memoria.put(ctx.IDENTIFICADOR().getText(), clase);
+
+        return super.visitClase(ctx);
+
+    }
+
+    @Override
+    public Valor visitObjeto(DiunisioParser.ObjetoContext ctx) {
+        return super.visitObjeto(ctx);
+    }
+
+    @Override
+    public Valor visitAtributoobjeto(DiunisioParser.AtributoobjetoContext ctx) {
+
+        return super.visitAtributoobjeto(ctx);
+    }
+
+    @Override
+    public Valor visitClasereferencia(DiunisioParser.ClasereferenciaContext ctx) {
+        return super.visitClasereferencia(ctx);
+    }
+
+    @Override
     public Valor visitInstancia(DiunisioParser.InstanciaContext ctx) {
+
+        try {
+            HashMap<String, Valor> mem = campo(encontrar(ctx.IDENTIFICADOR().getText()));
+            ClaseValor c = (ClaseValor) mem.get(ctx.IDENTIFICADOR().getText());
+            int u = 0;
+            alcanceActual++;
+            for (int i = 0; i < ctx.lista_parsv().children.size(); i++) {
+                if (ctx.lista_parsv().children.get(i).getText().equals(",") || ctx.lista_parsv().children.get(i).getText().equals("(") || ctx.lista_parsv().children.get(i).getText().equals(")"))
+                    continue;
+                mem = alcance();
+                mem.put(c.constructor.parametros.get(u++), this.visit(ctx.lista_parsv().children.get(i)));
+            }
+            if (u != c.constructor.parametros.size()) {
+                System.out.println("Error: recibidos " + u + " parámetros de " + c.constructor.parametros.size());
+                return new Valor(null);
+            }
+            Valor res = null;
+            if(c.constructor.tipo.equals("constructor")) {
+                res = visitBloqFun(c.constructor.bloque);
+            }
+            else
+                visitBloqFun(c.constructor.bloque);
+            locales.remove(alcanceActual);
+            alcanceActual--;
+        } catch (Exception e) {
+            System.out.println("Constructor no definido " + e );
+        }
         return super.visitInstancia(ctx);
     }
 
-    @Override
-    public Valor visitAtribinstancia(DiunisioParser.AtribinstanciaContext ctx) {
-        return super.visitAtribinstancia(ctx);
-    }
-
-    @Override
-    public Valor visitMetodoinstancia(DiunisioParser.MetodoinstanciaContext ctx) {
-        return super.visitMetodoinstancia(ctx);
-    }
 
     @Override
     public Valor visitModificadoracceso(DiunisioParser.ModificadoraccesoContext ctx) {

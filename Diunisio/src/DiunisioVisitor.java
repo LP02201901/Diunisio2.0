@@ -22,30 +22,6 @@ public interface DiunisioVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitClase(DiunisioParser.ClaseContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link DiunisioParser#extiende}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitExtiende(DiunisioParser.ExtiendeContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link DiunisioParser#lista_atrb}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitLista_atrb(DiunisioParser.Lista_atrbContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link DiunisioParser#atrb}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitAtrb(DiunisioParser.AtrbContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link DiunisioParser#lista_metd}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitLista_metd(DiunisioParser.Lista_metdContext ctx);
-	/**
 	 * Visit a parse tree produced by {@link DiunisioParser#constructor}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -58,23 +34,29 @@ public interface DiunisioVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitInstancia(DiunisioParser.InstanciaContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link DiunisioParser#atribinstancia}.
+	 * Visit a parse tree produced by {@link DiunisioParser#objeto}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitAtribinstancia(DiunisioParser.AtribinstanciaContext ctx);
+	T visitObjeto(DiunisioParser.ObjetoContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link DiunisioParser#metodoinstancia}.
+	 * Visit a parse tree produced by {@link DiunisioParser#clasereferencia}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitMetodoinstancia(DiunisioParser.MetodoinstanciaContext ctx);
+	T visitClasereferencia(DiunisioParser.ClasereferenciaContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link DiunisioParser#modificadoracceso}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	T visitModificadoracceso(DiunisioParser.ModificadoraccesoContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link DiunisioParser#atributoobjeto}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitAtributoobjeto(DiunisioParser.AtributoobjetoContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link DiunisioParser#algoritmo}.
 	 * @param ctx the parse tree

@@ -26,8 +26,8 @@ public class Main {
 
         //Realiza el parseo del código
         DiunisioParser parser = new DiunisioParser(new CommonTokenStream(lexer));
-        ParseTree tree = parser.algoritmo();
-        //ParseTree tree = parser.inicio();
+        //ParseTree tree = parser.algoritmo();
+        ParseTree tree = parser.clase();
         EvalVisitor visitor = new EvalVisitor();
         visitor.visit(tree);
     }
